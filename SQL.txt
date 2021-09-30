@@ -1,0 +1,7 @@
+INSERT INTO users VALUES
+(default,"hitnarkhede@gmail.com", "Hitesh", "Narkhede", "1234", "9767259871", "ADMIN"),
+(default,"lokesh@gmail.com", "Lokesh", "Jawale", "1234", "9874561230", "CUSTOMER"),
+(default,"manish@gmail.com", "Manish", "Dhande", "123", "9874563210", "CUSTOMER"),
+(default,"prasad@gmail.com", "Prasad", "Jagtap", "111", "987456123", "CUSTOMER");
+
+

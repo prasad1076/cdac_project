@@ -1,0 +1,182 @@
+/* ************NAVBAR *************** */
+.nav-title {
+  text-shadow: 2px 2px 5px salmon;
+  font-size: xx-large;
+  font-variant-caps: unicase;
+  font-weight: 450;
+}
+nav a {
+  text-decoration: none;
+  color: white !important;
+}
+.navbar {
+  margin-left: auto;
+  text-align: center;
+}
+.nav-color {
+  background-color: rgb(15, 1, 1);
+  /* background-image: ;*/
+}
+
+.menu_bar {
+  inline-size: auto;
+  text-align-last: justify;
+  border-bottom-style: solid;
+  height: 50px;
+  width: auto;
+  background-color: rgb(189, 176, 57);
+  font-family: serif;
+  text-align: center;
+  padding-top: 10px;
+}
+.padding_menu {
+  padding-left: 250px;
+}
+
+body {
+  background: url("https://image.freepik.com/free-photo/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.jpg")
+    fixed;
+  background-color: ghostwhite;
+  background-size: cover;
+}
+
+.container {
+  padding: 20px;
+  inline-size: fit-content;
+}
+
+.title {
+  text-align: center;
+}
+
+/*SignUp Screen*/
+.signup-form-screen {
+  max-width: 530px;
+  padding: 15px;
+  margin: 0 auto;
+  border-radius: 0.3em;
+  background-color: #ad7575;
+  margin-top: 43px;
+}
+.signup-form h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(2, 9, 17, 0.986);
+  margin-top: 2%;
+  margin-bottom: 10%;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.signup-form {
+  color: rgba(2, 9, 17, 0.986);
+  font-variant: all-petite-caps;
+  inline-size: fit-content;
+  display: flex;
+  text-decoration-style: dashed;
+  font-size: 30px;
+}
+
+.signup-button {
+  text-align-last: right;
+}
+
+.signup-color {
+  color: rgb(7, 71, 248);
+  text-size-adjust: initial;
+}
+/****************LOGIN FORM*********************/
+.login-form {
+  color: rgb(12, 0, 0);
+  font-variant: all-petite-caps;
+  display: table-row;
+  font-size: 35px;
+  width: 500;
+  height: 2000;
+
+  margin: auto;
+}
+
+/*Slide-show*/
+.each-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #000000;
+  text-align: center;
+}
+
+/****************Product List On Home Screen*********************/
+.product {
+  background-color: rgb(210, 242, 247);
+  border: solid #ccc 1px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 4px 2px #c4c4c4;
+  box-shadow: 1px 1px 4px 2px #c4c4c4;
+}
+
+.product .title {
+  font-weight: bold;
+  text-align: left !important;
+}
+
+.btn-add-to-cart {
+  margin-top: 10px;
+}
+.Cart {
+  background-color: #ed1c24;
+  border-radius: 3px;
+  color: #fff !important;
+  float: right;
+  font-size: 15px;
+  -webkit-box-shadow: 0 0 10px #ed1c24;
+  -moz-box-shadow: 0 0 10px #ed1c24;
+  box-shadow: 0 0 10px #ed1c24;
+  margin: 30px 15px 0 0 !important;
+  padding: 5px 9px 4px 10px !important;
+  cursor: pointer;
+  display: flex;
+}
+
+.Cart a {
+  text-decoration: none !important;
+}
+.Cart a:hover {
+  background-color: none;
+  text-decoration: none !important;
+}
+.Cart img {
+  height: 21px;
+  margin-right: 4px;
+}
+@media (min-width: 768px) {
+  .Cart {
+    color: #fff !important;
+    margin: 15px 15px 0 0;
+    float: right;
+    font-size: 15px;
+    justify-content: center;
+    cursor: pointer;
+    display: flex;
+  }
+
+  .Cart a {
+    text-decoration: none !important;
+  }
+  .Cart a:hover {
+    background-color: none;
+  }
+  .Cart img {
+    height: 21px;
+  }
+}
